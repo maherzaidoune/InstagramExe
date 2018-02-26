@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InstagramExe.instagram"
+             xmlns:local="clr-namespace:InstagramExe"
+            >
+    <NavigationPage Title="Activities">
+        <x:Arguments>
+            <local:insta ></local:insta>
+        </x:Arguments>
+    </NavigationPage>
+    <local:profile Title="profile" ></local:profile>
+</TabbedPage>

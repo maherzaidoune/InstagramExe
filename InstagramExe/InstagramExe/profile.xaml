@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="InstagramExe.profile"
+             xmlns:controle="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             >
+    <AbsoluteLayout Padding="10">
+        <BoxView BackgroundColor="#f7f7f7" 
+                 AbsoluteLayout.LayoutBounds="0,0,1,0.3"
+                 AbsoluteLayout.LayoutFlags="All"
+                 />
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,0.3" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="Center" VerticalOptions="Center">
+            <controle:CircleImage Source="http://lorempixel.com/200/200/people/1/"></controle:CircleImage>
+        </StackLayout>
+        <StackLayout Padding="30" AbsoluteLayout.LayoutBounds="0,0.5,1,0.3" AbsoluteLayout.LayoutFlags="All">
+            <Label Text="Maher" FontSize="22" TextColor="Black"  HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Text="i'm maherzaidoune" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>
